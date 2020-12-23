@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#https://t.me/ArchLinuxCristo
+
 trap "tput reset; tput cnorm; exit" 2
 clear
 tput civis
@@ -11,6 +13,8 @@ color=0
 tput setaf 2; tput bold
 
 # Arbolito
+#https://t.me/ArchLinuxCristo
+
 for ((i=1; i<20; i+=2))
 {
     tput cup $lin $col
@@ -25,6 +29,8 @@ for ((i=1; i<20; i+=2))
 tput sgr0; tput setaf 3
 
 # Tronco
+#https://t.me/ArchLinuxCristo
+
 for ((i=1; i<=3; i++))
 {
     tput cup $((lin++)) $c
@@ -45,6 +51,7 @@ k=1
 
 
 # Lucecitas y bolitas
+# https://t.me/ArchLinuxCristo
 while true; do
     for ((i=1; i<=35; i++)) {
         # Apagar luces
@@ -68,6 +75,7 @@ while true; do
 
 
         # Texto flashero
+        # https://t.me/ArchLinuxCristo
         sh=-6
         for l in C Ó D I G O + C R I S T O
         do
